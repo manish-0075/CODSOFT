@@ -1,39 +1,78 @@
-# Tic-Tac-Toe AI
+# Rule-Based Chatbot
 
-## Objective
+## Overview
 
-Develop an AI agent that plays Tic-Tac-Toe against a human player using the Minimax Algorithm.
+This project is a simple Rule-Based Chatbot developed using Python as part of the CODSOFT Artificial Intelligence Internship.
+
+The chatbot interacts with users and provides responses based on predefined rules using if-elif-else statements. It demonstrates the basic concepts of Natural Language Processing (NLP) and conversational AI.
 
 ## Features
 
-- Human vs AI
-- Intelligent AI moves
-- Minimax Algorithm
-- Command-line interface
-- Detects wins, losses, and draws
+* Greets users with friendly responses
+* Answers basic questions
+* Provides help information
+* Handles unknown inputs gracefully
+* Allows users to exit the conversation
 
 ## Technologies Used
 
-- Python 3
+* Python 3
+
+## Project Structure
+
+```
+Task1_Chatbot/
+│
+├── chatbot.py
+├── README.md
+└── requirements.txt
+```
 
 ## How to Run
 
+1. Install Python 3 on your system.
+2. Download or clone the project.
+3. Open a terminal in the project folder.
+4. Run the following command:
+
 ```bash
-python tictactoe.py
+python chatbot.py
 ```
 
-## Game Controls
+## Sample Interaction
 
-Enter numbers from 1–9 to place your mark.
+```
+You: hello
+Bot: Hello! How can I help you today?
 
-Example Board:
+You: what is your name
+Bot: My name is CODSOFT AI ChatBot.
 
-1 | 2 | 3
---+---+--
-4 | 5 | 6
---+---+--
-7 | 8 | 9
+You: help
+Bot: You can ask me questions like:
+- Hello
+- How are you
+- What is your name
+- Who created you
 
-## Internship
+You: bye
+Bot: Goodbye! Have a nice day.
+```
 
-Created as part of the CODSOFT Artificial Intelligence Internship.
+## Learning Outcomes
+
+Through this project, I learned:
+
+* Basic chatbot development
+* Conditional statements in Python
+* User input handling
+* Conversation flow design
+* Fundamentals of Artificial Intelligence
+
+## Internship Details
+
+This project was completed as part of the **CODSOFT Artificial Intelligence Internship**.
+
+## Author
+
+Manish
